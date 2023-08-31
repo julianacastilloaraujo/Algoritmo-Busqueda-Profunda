@@ -15,16 +15,16 @@ def busqueda_profunda(grafo, inicio, objetivo):
                 pila.append(vecino)  
     return None  
 grafo = {
-    'A': ['B', 'C'],
-    'B': ['D', 'E'],
-    'C': ['F'],
-    'D': [],
-    'E': ['F'],
-    'F': []
+    '1': ['2', '3', '7'],
+    '2': ['3'],
+    '3': ['4', '5'],
+    '6': [],
+    '7': ['8', '9'],
+    '9': ['10', '11']
 }
 
-inicio = 'A'
-objetivo = 'F'
+inicio = '1'
+objetivo = '9'
 
 ruta_optima = busqueda_profunda(grafo, inicio, objetivo)
 print("Ruta óptima:", ruta_optima)
