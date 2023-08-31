@@ -20,7 +20,10 @@ def busqueda_profunda(grafo, inicio, objetivo):
         for vecino in vecinos:
             if vecino not in visitados:
                 pila.append(vecino)  
-    return None  
+    return None 
+
+# Para este ejercicio utilizamos el ejemplo de la clase de Inteligencia Artificial
+ 
 grafo = {
     '1': ['2', '3', '7'],
     '2': ['3'],
