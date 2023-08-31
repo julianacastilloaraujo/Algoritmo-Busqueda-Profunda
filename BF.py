@@ -1,3 +1,10 @@
+# Desarrollado por Brayan Baquero y Juliana Castillo
+# Asignatura de Inteligencia Artificial 
+# Profesor : Manuel Alexander Cadena 
+# Universidad de Cundinamarca
+# Ingenieria de Sistemas
+
+
 def busqueda_profunda(grafo, inicio, objetivo):
     pila = []  
     visitados = set()  
